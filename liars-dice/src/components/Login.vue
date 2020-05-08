@@ -6,6 +6,7 @@
       <input type="email" v-model="email" placeholder="Email address" class="input" required>
       <input type="password" v-model="password" placeholder="Password" class="input" required>
     </div>
+    <p>Need an account? <a href="/signup">Sign up now!</a></p>
   </div>
 </template>
 
@@ -13,7 +14,7 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
-export default class HelloWorld extends Vue {
+export default class Login extends Vue {
   @Prop() private msg!: string;
 }
 </script>
