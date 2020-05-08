@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img id="logo" alt="Liar's Dice Logo" src="../assets/LiarsDiceTitle.png" />
-    <SignUp/>
+    <SignUp />
   </div>
 </template>
 
@@ -18,10 +18,8 @@ export default {
 </script>
 
 <style>
-
 .logo {
   height: 3em;
   width: 5em;
 }
-
 </style>

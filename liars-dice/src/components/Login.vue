@@ -1,10 +1,23 @@
 <template>
   <div class="hello">
+    <img id="logo" alt="Liar's Dice Logo" src="../assets/LiarsDiceTitle.png" />
     <h1>Welcome to Liar's Dice</h1>
     <h3>Please sign in</h3>
     <div>
-      <input type="email" v-model="email" placeholder="Email address" class="input" required>
-      <input type="password" v-model="password" placeholder="Password" class="input" required>
+      <input
+        type="email"
+        v-model="email"
+        placeholder="Email address"
+        class="input"
+        required
+      />
+      <input
+        type="password"
+        v-model="password"
+        placeholder="Password"
+        class="input"
+        required
+      />
     </div>
     <p>Need an account? <a href="/signup">Sign up now!</a></p>
   </div>

@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
 import Home from "../views/Home.vue";
-import NewAccount from "../views/NewAccount.vue"
+import NewAccount from "../views/NewAccount.vue";
 
 Vue.use(VueRouter);
 

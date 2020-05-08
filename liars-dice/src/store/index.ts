@@ -1,17 +1,15 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
-
+import Vue from "vue";
+import Vuex from "vuex";
 
 Vue.use(Vuex);
 
 const state = {
-    waitingForPlayers: true
-}
-
+  waitingForPlayers: true
+};
 
 export default new Vuex.Store({
-    state
-    // getters,
-    // mutations,
-    // actions
-})
+  state
+  // getters,
+  // mutations,
+  // actions
+});
