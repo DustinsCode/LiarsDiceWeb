@@ -19,7 +19,7 @@
         required
       />
     </div>
-    <p>Need an account? <a href="/signup">Sign up now!</a></p>
+    <p>Need an account? <router-link to="/signup">Sign up now!</router-link></p>
   </div>
 </template>
 
