@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img id="logo" alt="Liar's Dice Logo" src="../assets/LiarsDiceTitle.png" />
     <SignUp />
   </div>
 </template>

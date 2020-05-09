@@ -5,6 +5,7 @@
       <v-card-text>
         <v-container>
           <form>
+      <img id="logo" alt="Liar's Dice Logo" src="../assets/LiarsDiceTitle.png" />
             <v-layout row>
               <v-flex xs12>
                 <v-text-field
