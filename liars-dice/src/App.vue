@@ -1,7 +1,7 @@
 <template>
   <v-app>
     
-
+    <router-view></router-view>
     <v-footer> 
       <v-col class="text-center" cols="12">
         Made with ❤️ in The Great Lakes State
